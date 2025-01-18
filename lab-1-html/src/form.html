@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Module2-LabExercise1</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="index.html">Home</a>
+      <a href="form.html">Form</a>
+    </nav>
+  </header>
+  <br>
+  <div class="testForm">
+    <form method="POST" action="http://127.0.0.1:5500/form.html">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="codingLanguage">Favourite coding language:</label>
+      <input type="radio" id="codingLanguage" name="codingLanguage">
+      <label for="codingLanguage">HTML</label>
+      <input type="radio" id="codingLanguage" name="codingLanguage">
+      <label for="codingLanguage">CSS</label>
+      <input type="radio" id="codingLanguage" name="codingLanguage">
+      <label for="codingLanguage">JavaScript</label>
+      <input type="radio" id="codingLanguage" name="codingLanguage">
+      <label for="codingLanguage">Python</label>
+      <input type="radio" id="codingLanguage" name="codingLanguage">
+      <label for="codingLanguage">C#</label><br><br>
+      <label for="vehicleType">Types of vehicles:</label>
+      <input type="checkbox" id="vehicleType" name="vehicleType">
+      <label for="vehicleType">Tesla Model 3</label>
+      <input type="checkbox" id="vehicleType" name="vehicleType">
+      <label for="vehicleType">Audi Sportback</label>
+      <input type="checkbox" id="vehicleType" name="vehicleType">
+      <label for="vehicleType">Kia Stinger</label><br><br>
+      <label for="carBrand">Choose a car:</label>
+      <select name="carBrand" id="carBrand">
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+        <option value="tesla">Tesla</option>
+        <option value="toyota">Toyota</option>
+        <option value="kia">Kia</option>
+      </select><br><br>
+      <button type="submit">Submit form</button>
+    </form>
+  </div>
+  
+
+  <main>
+  </main>
+  <br>
+  <footer>Copyright &copy; 2024</footer>
+</body>
+
+</html>
